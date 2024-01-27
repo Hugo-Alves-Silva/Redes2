@@ -31,14 +31,14 @@ continuar = "yes"
 
 while continuar.lower() == "yes":        
     my_text = record_text()
-    print("Texto: ", my_text)
+    print("Text: ", my_text)
 
     my_response = requests.get(f"{my_url}?sentence={my_text}")
     my_response = my_response.text
-    print("Resposta: ", my_response)
+    print("Response: ", my_response)
 
     my_command = find_command(my_response)
-    print("Comando: ", my_command)
+    print("Command: ", my_command)
     with Connection(vm_ip, port=22, user="mininet", connect_kwargs={"password": "mininet"}) as c:
         c.run(my_command, pty=True)
-    continuar = input("Continuar?(yes/no):")
+    continuar = input("Continue?(yes/no):")
