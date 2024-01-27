@@ -24,8 +24,11 @@ def find_command(response):
             fim = i
             break
     return response[inicio:fim]
+
 my_url = "http://ece0-34-141-196-39.ngrok-free.app"
+vm_ip = "192.168.100.12"
 continuar = "yes"        
+
 while continuar.lower() == "yes":        
     my_text = record_text()
     print("Texto: ", my_text)
@@ -36,6 +39,6 @@ while continuar.lower() == "yes":
 
     my_command = find_command(my_response)
     print("Comando: ", my_command)
-    with Connection("192.168.100.12", port=22, user="mininet", connect_kwargs={"password": "mininet"}) as c:
+    with Connection(vm_ip, port=22, user="mininet", connect_kwargs={"password": "mininet"}) as c:
         c.run(my_command, pty=True)
     continuar = input("Continue?(yes/no):")
