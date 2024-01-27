@@ -41,4 +41,4 @@ while continuar.lower() == "yes":
     print("Comando: ", my_command)
     with Connection(vm_ip, port=22, user="mininet", connect_kwargs={"password": "mininet"}) as c:
         c.run(my_command, pty=True)
-    continuar = input("Continue?(yes/no):")
+    continuar = input("Continuar?(yes/no):")
