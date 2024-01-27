@@ -20,8 +20,8 @@ http://mininet.org
 Site do Ngrok:
 http://ngrok.com
 
-QLora paper:
+QLoRA paper:
 https://arxiv.org/abs/2305.14314
 
-Lora paper:
+LoRA paper:
 https://arxiv.org/abs/2106.09685
