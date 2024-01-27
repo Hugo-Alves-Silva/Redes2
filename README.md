@@ -5,6 +5,9 @@ https://colab.research.google.com/drive/1sbRNXUqAzPwKEjMiY4whqyKTARxc0S5l?usp=sh
 Notebook do Google Colab onde faço o fine-tuning do Llama 2 7B usando o método QLoRA:
 https://colab.research.google.com/drive/1wXX4cH_hiQuVvaHGQatoJUDX8dpbIj8X?usp=sharing
 
+Modelo fine-tuned:
+https://drive.google.com/file/d/1jQ7nrhkn6YRn5eFuiMzhVr_pKoWYSL6m/view?usp=drive_link
+
 Notebook do Google Colab onde testo o modelo fine-tuned:
 https://colab.research.google.com/drive/18urfiC35YCQ8tJ_goi97amnza2N8ii8z?usp=sharing
 
