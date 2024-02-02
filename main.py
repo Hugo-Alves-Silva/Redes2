@@ -25,7 +25,7 @@ def find_command(response):
             break
     return response[inicio:fim]
 
-my_url = "http://ece0-34-141-196-39.ngrok-free.app"
+my_url = "http://6ac6-35-230-37-139.ngrok-free.app"
 vm_ip = "192.168.100.12"
 continuar = "yes"        
 
