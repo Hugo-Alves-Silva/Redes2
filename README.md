@@ -11,7 +11,7 @@ https://drive.google.com/file/d/1jQ7nrhkn6YRn5eFuiMzhVr_pKoWYSL6m/view?usp=drive
 Notebook do Google Colab onde testo o modelo fine-tuned:
 https://colab.research.google.com/drive/18urfiC35YCQ8tJ_goi97amnza2N8ii8z?usp=sharing
 
-Notebook do Google Colab onde crio um servidor Flask com a ajudo do Ngrok, uso esse servidor para entregar os comandos de criação de redes no Mininet gerados pelo modelo fine-tuned após requisições do código local, que envia o texto reconhecido da fala do usuário como parâmetro na url:
+Notebook do Google Colab onde crio um servidor Flask com a ajudo do Ngrok:
 https://colab.research.google.com/drive/19O1M6D9T5vVxEHKUZfuxFMp8JIZban7G?usp=sharing
 
 Site onde baixar a VM do mininet:
